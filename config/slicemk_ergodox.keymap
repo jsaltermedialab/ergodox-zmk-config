@@ -10,15 +10,15 @@
                 layer_0 {
                         bindings = <
     &bootloader
-    &kp ESC       &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6       &none       &kp NUM_6  &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp NUM_0  &kp BACKSPACE
-    &kp TAB       &kp Q      &kp W      &kp E      &kp R      &kp T      &kp NUM_7       &kp M_MUTE  &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BSLH
-    &kp CAPS      &kp A      &kp S      &kp D      &kp F      &kp G                                  &kp H      &kp J      &kp K      &kp L      &kp SCLN   &kp RET
-    &mo LSHIFT    &kp Z      &kp X      &kp C      &kp V      &kp B      &mo L_CMD       &kp M_VOLU  &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH   &mo RSHIFT
-    &mo LCTRL     &kp GRAVE  &kp LALT   &kp LARW   &kp RARW                                                     &kp UARW   &kp DARW   &kp LBKT   &kp RBKT   &mo RCTL
-                                                              &kp TAB    &kp KP_NUMLOCK  &mo 1       &kp INS
-                                                                         &kp PGUP        &kp PGUP
-                                                   &kp SPC    &kp SPC                                &kp LSFT   &kp RET
-                                                                         &kp LGUI        &kp PGDN
+    &kp ESC         &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6       &none        &kp NUM_6  &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp NUM_0  &kp BACKSPACE
+    &kp TAB         &kp Q      &kp W      &kp E      &kp R      &kp T      &kp NUM_7       &kp APOS     &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BSLH
+    &kp CAPS        &kp A      &kp S      &kp D      &kp F      &kp G                                   &kp H      &kp J      &kp K      &kp L      &kp SCLN   &kp RET
+    &kp LEFT_SHIFT  &kp Z      &kp X      &kp C      &kp V      &kp B      &kp LEFT_GUI    &kp MINUS    &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH   &kp RSHFT
+    &kp LCTRL       &kp GRAV   &kp LALT   &kp LARW   &kp RARW                                                      &kp UARW   &kp DARW   &kp LBKT   &kp RBKT   &kp RCTL
+                                                                &kp TAB    &kp KP_NUMLOCK  &mo 1        &kp INS
+                                                                           &kp PGUP        &kp PGUP
+                                                     &kp SPC    &kp SPC                                 &kp LSFT   &kp RET
+                                                                           &kp LGUI        &kp PGDN
                         >;
                 };
 
@@ -36,21 +36,5 @@
                                                                       &none      &none
                         >;
                 };
-
-                layer_2 {
-                        bindings = <
-    &bootloader
-    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_SEL 0
-    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_SEL 1
-    &none      &none      &none      &none      &none      &none                            &none      &none      &none      &none      &none      &bt BT_SEL 2
-    &none      &none      &none      &kp LBKT   &kp RBKT   &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_SEL 3
-    &none      &none      &none      &none      &none                                                  &none      &none      &none      &none      &bt BT_SEL 4
-                                                           &none      &none      &none      &none
-                                                                      &none      &none
-                                                &none      &none                            &none      &none
-                                                                      &none      &none
-                        >;
-                };
-
         };
 };
