@@ -18,7 +18,7 @@
                                                                 &kp TAB    &kp KP_NUMLOCK  &mo 1        &kp INS
                                                                            &kp PGUP        &kp PGUP
                                                      &kp SPC    &kp SPC                                 &kp LSFT   &kp RET
-                                                                           &kp LGUI        &kp PGDN
+                                                                           &kp DEL         &kp PGDN
                         >;
                 };
 
